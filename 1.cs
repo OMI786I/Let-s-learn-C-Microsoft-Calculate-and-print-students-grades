@@ -30,10 +30,6 @@ int nicolasSum = nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5;
 int zahirahSum = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5;
 int jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
 
-Console.WriteLine("Sophia: " + sophiaSum);
-Console.WriteLine("Nicolas: " + nicolasSum);
-Console.WriteLine("Zahirah: " + zahirahSum);
-Console.WriteLine("Jeong: " + jeongSum);
 
 
 float sophiaAverage = (float)sophiaSum / currentAssignments;
@@ -41,7 +37,8 @@ float nicolasAverage = (float)nicolasSum / currentAssignments;
 float zahirahAverage = (float)zahirahSum / currentAssignments;
 float jeongAverage = (float)jeongSum / currentAssignments;
 
-Console.WriteLine("Sophia: " + sophiaAverage);
-Console.WriteLine("Nicolas: " + nicolasAverage);
-Console.WriteLine("Zahirah: " + zahirahAverage);
-Console.WriteLine("Jeong: " + jeongAverage);
+Console.WriteLine("Student\t\tGrade\n");
+Console.WriteLine("Sophia:\t\t" + sophiaAverage + "\tA");
+Console.WriteLine("Nicolas:\t" + nicolasAverage + "\tB");
+Console.WriteLine("Zahirah:\t" + zahirahAverage + "\tB");
+Console.WriteLine("Jeong:\t\t" + jeongAverage + "\tA");
