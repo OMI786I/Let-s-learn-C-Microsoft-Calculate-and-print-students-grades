@@ -34,3 +34,14 @@ Console.WriteLine("Sophia: " + sophiaSum);
 Console.WriteLine("Nicolas: " + nicolasSum);
 Console.WriteLine("Zahirah: " + zahirahSum);
 Console.WriteLine("Jeong: " + jeongSum);
+
+
+float sophiaAverage = (float)sophiaSum / currentAssignments;
+float nicolasAverage = (float)nicolasSum / currentAssignments;
+float zahirahAverage = (float)zahirahSum / currentAssignments;
+float jeongAverage = (float)jeongSum / currentAssignments;
+
+Console.WriteLine("Sophia: " + sophiaAverage);
+Console.WriteLine("Nicolas: " + nicolasAverage);
+Console.WriteLine("Zahirah: " + zahirahAverage);
+Console.WriteLine("Jeong: " + jeongAverage);
